@@ -1,0 +1,110 @@
+/* CSS BY YOUR NAME 
+
+    Name: Nico Morente
+
+*/
+
+/* IMPORTED FONTS */
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);
+
+/* CSS REST */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ROOT VARIABLES */
+header, main, footer{ 
+    font-family: Playfair Display;
+    padding: 0 10px;
+}
+
+
+
+/* GLOBAL STYLES (mobile first/small) */
+/* Header */
+header{
+    background-color: #1F2A44;
+    color: #ffffff;
+}
+
+header img{
+
+}
+
+
+/* Main */
+.middle {
+    border-bottom: 2px solid #E5C185;
+}
+
+button {
+    text-align: center;
+    width: 370px;
+    height: 25px;
+    background-color: #76885B;
+    color: #ffffff;
+    margin: 10px 0;
+    border-radius: 3px;
+    border: 1px solid #2B2B2B;
+}
+
+footer{
+    background-color: #1F2A44;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* MEDIA QUERY (medium) */
+@media screen and (min-width: 600px) {
+    
+}
+
+/* MEDIA QUERY (large) */
+@media screen and (min-width: 900px) {
+    
+}
+
+/* MEDIA QUERY (xl) */
+@media screen and (min-width: 1200px) {
+    
+}
